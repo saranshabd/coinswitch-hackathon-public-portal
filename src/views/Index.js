@@ -16,11 +16,18 @@ export default function Index() {
               <h2 className="font-semibold text-4xl">
                 <span style={{ color: "#FB8C00" }}>Tiranga</span>
                 <span className="text-blueGray-700">
-                  {" "}- To make <span style={{ color: "#66BB6A" }}>India</span> a better place for everyone
+                  {" "}
+                  - To make <span style={{ color: "#66BB6A" }}>India</span> a
+                  better place for everyone
                 </span>
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                <span className="text-lime-300">Tiranga</span> is free and open source, built on top of India Stack. The motive is to <span style={{ color: "#FBC02D", fontWeight: "bold" }}>promote better citizens</span> with the help of government-registered entities.
+                <span className="text-lime-300">Tiranga</span> is free and open
+                source, built on top of India Stack. The motive is to{" "}
+                <span style={{ color: "#FBC02D", fontWeight: "bold" }}>
+                  promote better citizens
+                </span>{" "}
+                with the help of government-registered entities.
               </p>
               {/* <div className="mt-12">
                 <a

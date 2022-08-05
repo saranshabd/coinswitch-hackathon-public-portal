@@ -9,7 +9,7 @@ export default function Sidebar() {
   const [collapseShow, setCollapseShow] = React.useState("hidden");
   const [currPage, setCurrPage] = React.useState(undefined);
   React.useEffect(() => {
-    const extractedCurrPage = window.location.href.split('/').reverse()[0];
+    const extractedCurrPage = window.location.href.split("/").reverse()[0];
     setCurrPage(extractedCurrPage);
   }, [window.location.href]);
   return (

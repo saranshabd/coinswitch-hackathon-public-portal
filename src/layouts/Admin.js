@@ -27,12 +27,28 @@ export default function Admin() {
         <HeaderStats />
         <div className="px-4 md:px-10 mx-auto w-full -m-24">
           <Switch>
-            <Route path="/admin/dashboard/individual" exact component={DashboardForIndividual} />
-            <Route path="/admin/dashboard/entity" exact component={DashboardForEntity} />
+            <Route
+              path="/admin/dashboard/individual"
+              exact
+              component={DashboardForIndividual}
+            />
+            <Route
+              path="/admin/dashboard/entity"
+              exact
+              component={DashboardForEntity}
+            />
             <Route path="/admin/maps" exact component={Maps} />
             <Route path="/admin/settings" exact component={Settings} />
-            <Route path="/admin/tables/entity" exact component={TablesForEntity} />
-            <Route path="/admin/tables/individual" exact component={TablesForIndividual} />
+            <Route
+              path="/admin/tables/entity"
+              exact
+              component={TablesForEntity}
+            />
+            <Route
+              path="/admin/tables/individual"
+              exact
+              component={TablesForIndividual}
+            />
             <Redirect from="/admin" to="/admin/dashboard" />
           </Switch>
           {/* <FooterAdmin /> */}

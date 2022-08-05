@@ -23,7 +23,7 @@ export default function CardTable({ color }) {
                   (color === "light" ? "text-blueGray-700" : "text-white")
                 }
               >
-                Redeemable benefits ✨ 
+                Redeemable benefits ✨
               </h3>
             </div>
           </div>

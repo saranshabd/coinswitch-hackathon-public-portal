@@ -32,7 +32,10 @@ export default function Landing() {
                     Why you need to enroll?
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    There are numerous benefits to enrolling for Tiranga whether you are an individual or an business entity. Benefits may be <u>tax exemptions</u>, <u>better loan interests</u> and much more!
+                    There are numerous benefits to enrolling for Tiranga whether
+                    you are an individual or an business entity. Benefits may be{" "}
+                    <u>tax exemptions</u>, <u>better loan interests</u> and much
+                    more!
                   </p>
                 </div>
               </div>
@@ -70,7 +73,8 @@ export default function Landing() {
                     </div>
                     <h6 className="text-xl font-semibold">Tax exemptions</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      You won't have to shed a tear while filing your next year's ITR. That's for being a good citizen!
+                      You won't have to shed a tear while filing your next
+                      year's ITR. That's for being a good citizen!
                     </p>
                   </div>
                 </div>
@@ -82,9 +86,12 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                       <i className="fas fa-retweet"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Better loan interests</h6>
+                    <h6 className="text-xl font-semibold">
+                      Better loan interests
+                    </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      The government has your back when you want to get that dream car or house. How about that?
+                      The government has your back when you want to get that
+                      dream car or house. How about that?
                     </p>
                   </div>
                 </div>
@@ -96,9 +103,12 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                       <i className="fas fa-fingerprint"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Priority access to gov't services</h6>
+                    <h6 className="text-xl font-semibold">
+                      Priority access to gov't services
+                    </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Get a VIP treatement the next time you visit a gov't center for passport renewal.
+                      Get a VIP treatement the next time you visit a gov't
+                      center for passport renewal.
                     </p>
                   </div>
                 </div>
@@ -439,7 +449,10 @@ export default function Landing() {
                   Benefits for registered entities!
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                  There are numerous benefits for enrolling for Tiranga if you're a business entity. The government will reward you if you are able to recognize "good" citizens. That's the hardest part.
+                  There are numerous benefits for enrolling for Tiranga if
+                  you're a business entity. The government will reward you if
+                  you are able to recognize "good" citizens. That's the hardest
+                  part.
                 </p>
               </div>
             </div>
@@ -452,7 +465,8 @@ export default function Landing() {
                   Tax exemptions
                 </h6>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Taxes are sometimes hard for business. Identify these "good" citizens and the gov't will extend you a helping hand.
+                  Taxes are sometimes hard for business. Identify these "good"
+                  citizens and the gov't will extend you a helping hand.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -463,7 +477,8 @@ export default function Landing() {
                   Better business loan interests
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Need a load for that new warehouse? Get it for better interests if your business has made a difference.
+                  Need a load for that new warehouse? Get it for better
+                  interests if your business has made a difference.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -474,7 +489,8 @@ export default function Landing() {
                   Get a Twitter mention by the Prime Minister 🤯
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  The most unique business with most contribution will be featured by the Prime Miniter of India. Cool, right?
+                  The most unique business with most contribution will be
+                  featured by the Prime Miniter of India. Cool, right?
                 </p>
               </div>
             </div>

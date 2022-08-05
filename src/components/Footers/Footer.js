@@ -26,7 +26,9 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-xl font-semibold">Celebrating 75 years of independence!</h4>
+              <h4 className="text-xl font-semibold">
+                Celebrating 75 years of independence!
+              </h4>
               <h5 className="text-sm mt-2 mb-2 text-blueGray-600">
                 Built in India with ❤️
               </h5>

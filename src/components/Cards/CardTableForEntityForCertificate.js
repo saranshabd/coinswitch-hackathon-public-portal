@@ -109,7 +109,8 @@ export default function CardTable({ color, setSelectedCertificate }) {
                   x2
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-orange-500 mr-2"></i> Few remaining
+                  <i className="fas fa-circle text-orange-500 mr-2"></i> Few
+                  remaining
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   28th September, 2022
@@ -130,7 +131,9 @@ export default function CardTable({ color, setSelectedCertificate }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
                   <button
                     className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                    onClick={() => setSelectedCertificate('TATA CLiQ - Customer Loyalty A1')}
+                    onClick={() =>
+                      setSelectedCertificate("TATA CLiQ - Customer Loyalty A1")
+                    }
                   >
                     Select
                   </button>
@@ -151,7 +154,8 @@ export default function CardTable({ color, setSelectedCertificate }) {
                   x9
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-emerald-500 mr-2"></i> Available
+                  <i className="fas fa-circle text-emerald-500 mr-2"></i>{" "}
+                  Available
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   14th January, 2023
@@ -172,7 +176,9 @@ export default function CardTable({ color, setSelectedCertificate }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
                   <button
                     className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                    onClick={() => setSelectedCertificate('TATA CLiQ - Customer Loyalty A2')}
+                    onClick={() =>
+                      setSelectedCertificate("TATA CLiQ - Customer Loyalty A2")
+                    }
                   >
                     Select
                   </button>
@@ -193,7 +199,8 @@ export default function CardTable({ color, setSelectedCertificate }) {
                   x11
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-emerald-500 mr-2"></i> Available
+                  <i className="fas fa-circle text-emerald-500 mr-2"></i>{" "}
+                  Available
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   1st December, 2022
@@ -214,7 +221,9 @@ export default function CardTable({ color, setSelectedCertificate }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
                   <button
                     className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                    onClick={() => setSelectedCertificate('TATA CLiQ - Customer Loyalty A3')}
+                    onClick={() =>
+                      setSelectedCertificate("TATA CLiQ - Customer Loyalty A3")
+                    }
                   >
                     Select
                   </button>
@@ -256,7 +265,9 @@ export default function CardTable({ color, setSelectedCertificate }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
                   <button
                     className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                    onClick={() => setSelectedCertificate('TATA CLiQ - Customer Loyalty A4')}
+                    onClick={() =>
+                      setSelectedCertificate("TATA CLiQ - Customer Loyalty A4")
+                    }
                   >
                     Select
                   </button>
@@ -298,7 +309,9 @@ export default function CardTable({ color, setSelectedCertificate }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
                   <button
                     className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                    onClick={() => setSelectedCertificate('TATA CLiQ - Customer Loyalty A5')}
+                    onClick={() =>
+                      setSelectedCertificate("TATA CLiQ - Customer Loyalty A5")
+                    }
                   >
                     Select
                   </button>

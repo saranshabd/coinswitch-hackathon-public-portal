@@ -42,7 +42,7 @@ export default function LoginForIndividual() {
               </div> */}
               <div className="flex-auto px-4 lg:px-10 py-10">
                 <div className="text-blueGray-400 text-center mb-6 font-bold">
-                    For individuals 🙋‍♂️
+                  For individuals 🙋‍♂️
                 </div>
                 <form>
                   <div className="relative w-full mb-3">
