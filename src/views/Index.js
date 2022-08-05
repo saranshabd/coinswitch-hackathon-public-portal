@@ -14,13 +14,13 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl">
-                <span className="text-blueGray-400">Tiranga</span>
+                <span style={{ color: "#FB8C00" }}>Tiranga</span>
                 <span className="text-blueGray-700">
-                  {" "}- To make <i>India</i> a better place for everyone
+                  {" "}- To make <span style={{ color: "#66BB6A" }}>India</span> a better place for everyone
                 </span>
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                <span className="text-lime-300">Tiranga</span> is free and open source, built on top of India Stack. The motive is to <u>promote better citizens</u> with the help of government-registered entities.
+                <span className="text-lime-300">Tiranga</span> is free and open source, built on top of India Stack. The motive is to <span style={{ color: "#FBC02D", fontWeight: "bold" }}>promote better citizens</span> with the help of government-registered entities.
               </p>
               {/* <div className="mt-12">
                 <a
