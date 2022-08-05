@@ -7,7 +7,7 @@ import CardTableForEntityForUsers from "components/Cards/CardTableForEntityForUs
 
 export default function TablesForEntity() {
   const [selectedCertificate, setSelectedCertificate] = React.useState(
-    "TATA CLiQ - Customer Loyalty A1"
+    "TATA_CLiQ_Customer-loyalty_A1"
   );
   const [pan, setPan] = React.useState("");
   function issueCertificate() {
@@ -23,8 +23,11 @@ export default function TablesForEntity() {
             setSelectedCertificate={setSelectedCertificate}
           />
           <div>
-            Issue a "<span className="font-bold">{selectedCertificate}</span>"
-            certificate to individual with{" "}
+            Issue a "
+            <span className="font-bold">
+              {selectedCertificate.split("_").join(" ")}
+            </span>
+            " certificate to individual with{" "}
             <input
               className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring ease-linear transition-all duration-150"
               value={pan}
