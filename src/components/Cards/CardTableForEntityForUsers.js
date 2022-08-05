@@ -120,7 +120,7 @@ export default function CardTableForEntityForUsers({ color }) {
                       x{certificate.count}
                     </td>
                     <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                      PLY2323228A
+                      {process.env.REACT_APP_UNIVERSAL_PAN}
                     </td>
                     <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                       0x98aa3076d4169bc41775df7fc0d596621aad18fcfbf597868274a922c19023eb
