@@ -4,7 +4,7 @@ import React from "react";
 
 import CardTable from "components/Cards/CardTable.js";
 
-export default function Tables() {
+export default function TablesForEntity() {
   return (
     <>
       <div className="flex flex-wrap mt-4">
