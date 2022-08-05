@@ -3,6 +3,17 @@ import React from "react";
 import UserDropdown from "components/Dropdowns/UserDropdown.js";
 
 export default function Navbar() {
+  const [currPage, setCurrPage] = React.useState(undefined);
+  React.useEffect(() => {
+    const extractedCurrPage = window.location.href.split('/').reverse()[0]
+    setCurrPage(extractedCurrPage);
+  }, [window.location.href]);
+  const name = (() => {
+    if (!currPage) {
+      return '';
+    }
+    return 'individual' === currPage ? 'Shabd' : 'Akshay';
+  })()
   return (
     <>
       {/* Navbar */}
@@ -14,7 +25,7 @@ export default function Navbar() {
             href="#pablo"
             onClick={(e) => e.preventDefault()}
           >
-            Hey <span style={{ color: "#81C784" }}>Shabd</span>, welcome back 👋
+            Hey <span style={{ color: "#81C784" }}>{name}</span>, welcome back 👋
           </a>
           {/* Form */}
           {/* <form className="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3">
