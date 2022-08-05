@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 import TableDropdown from "components/Dropdowns/TableDropdown.js";
 
-export default function CardTable({ color }) {
+export default function CardTable({ color, setSelectedCertificate }) {
   return (
     <>
       <div
@@ -128,7 +128,12 @@ export default function CardTable({ color }) {
                   </div>
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
-                  <TableDropdown />
+                  <button
+                    className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                    onClick={() => setSelectedCertificate('TATA CLiQ - Customer Loyalty A1')}
+                  >
+                    Select
+                  </button>
                 </td>
               </tr>
               <tr>
@@ -165,7 +170,12 @@ export default function CardTable({ color }) {
                   </div>
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
-                  <TableDropdown />
+                  <button
+                    className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                    onClick={() => setSelectedCertificate('TATA CLiQ - Customer Loyalty A2')}
+                  >
+                    Select
+                  </button>
                 </td>
               </tr>
               <tr>
@@ -202,7 +212,12 @@ export default function CardTable({ color }) {
                   </div>
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
-                  <TableDropdown />
+                  <button
+                    className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                    onClick={() => setSelectedCertificate('TATA CLiQ - Customer Loyalty A3')}
+                  >
+                    Select
+                  </button>
                 </td>
               </tr>
               <tr>
@@ -239,7 +254,12 @@ export default function CardTable({ color }) {
                   </div>
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
-                  <TableDropdown />
+                  <button
+                    className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                    onClick={() => setSelectedCertificate('TATA CLiQ - Customer Loyalty A4')}
+                  >
+                    Select
+                  </button>
                 </td>
               </tr>
               <tr>
@@ -276,7 +296,12 @@ export default function CardTable({ color }) {
                   </div>
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
-                  <TableDropdown />
+                  <button
+                    className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                    onClick={() => setSelectedCertificate('TATA CLiQ - Customer Loyalty A5')}
+                  >
+                    Select
+                  </button>
                 </td>
               </tr>
             </tbody>
