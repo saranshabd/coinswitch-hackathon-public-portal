@@ -9,10 +9,13 @@ export default function TablesForEntity() {
   const [selectedCertificate, setSelectedCertificate] = React.useState(
     "TATA_CLiQ_Customer-loyalty_A1"
   );
+  const [successMsg, setSuccessMsg] = React.useState("");
   const [pan, setPan] = React.useState("");
   function issueCertificate() {
-    alert(
-      `Certificate of type ${selectedCertificate} has been issued ${pan} individual.`
+    fetch(
+      `http://${process.env.REACT_APP_API_IP_ADDR}:3000/transfer-certificate?certificateType=${selectedCertificate}`
+    ).then((resp) =>
+      resp.json().then((data) => setSuccessMsg(data.transactionId))
     );
   }
   return (
@@ -42,6 +45,14 @@ export default function TablesForEntity() {
           >
             Issue certificate
           </button>
+          {"" !== successMsg && (
+            <div className="mt-6">
+              <p style={{ color: "#FB8C00", fontWeight: "bold", fontSize: 18 }}>
+                Success! 🎊
+              </p>
+              <p style={{ color: "#43A047" }}>Transaction ID - {successMsg}</p>
+            </div>
+          )}
         </div>
         <div className="w-full mb-12 px-4">
           <CardTableForEntityForUsers color="dark" />
